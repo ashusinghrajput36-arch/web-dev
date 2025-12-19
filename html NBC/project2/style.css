@@ -1,0 +1,144 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.portfolio-title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.portfolio-title span {
+  color: #000;
+}
+
+.portfolio-title .year {
+  font-size: 2rem;
+  color: #c7b48a;
+}
+
+.name {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.portrait img {
+  width: 280px;
+  margin-top: 1rem;
+}
+
+/* Intro */
+.intro {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.intro h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Experience */
+.experience {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.exp-col {
+  flex: 1 1 200px;
+}
+
+.exp-col h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.badge img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* Contact + Software */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  background: #f9f9f9;
+}
+
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-info li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin: 0.3rem 0;
+}
+
+.software .icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.software .icons img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Footer numbers */
+.footer-numbers {
+  text-align: center;
+  margin: 3rem 0;
+  position: relative;
+}
+
+.footer-numbers .num {
+  font-size: 3rem;
+  opacity: 0.1;
+  margin: 0 1rem;
+}
+
+.footer-numbers .content-label {
+  font-size: 5rem;
+  font-weight: 900;
+  opacity: 0.05;
+  margin-top: -2rem;
+}
+.portrait img {
+  width: 280px;  /* increase or decrease as needed */
+  margin-top: 1rem;
+}
