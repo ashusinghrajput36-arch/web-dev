@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>/*element selector*/
+        div{ 
+            /*id selector*/}
+            .red{
+                text-shadow: 0dvb(2px, 2px, 5px, black);
+                background-color: red;}
+            /*class selector*/
+            #green {
+                background-color: rgb(56, 197, 215);}
+
+
+        /*descendant selector*/
+        div > p{
+            color: blue;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        /*universal selector*/
+        *{ 
+           margin: 10px;
+           font-size: medium;
+            font-family: Arial, sans-serif;
+            
+        }
+        /*psuedo class selector*/
+        
+        a:visited{ 
+                color: rgb(207, 238, 27);
+                font-family: 'Times New Roman', Times, serif;
+            }
+        a:active{
+            background-color: red;
+        }
+        div:hover{
+            background-color: yellow;
+        }
+        p:hover{
+            background-color: blueviolet;
+            color: rgb(245, 83, 50);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="red">hii this the some of the selectors </div>
+    <div id="green">
+        <p>this is a paragraph inside a div Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum porro repellat inventore corrupti quisquam nisi consequatur dolorem temporibus dolores perspiciatis? Inventore ipsam quam ut delectus fuga cupiditate voluptatum, voluptatibus asperiores!</p>
+    <div id="green"> this is the id selector</div>
+
+    <a href="https://www.google.com"> go to google</a>
+</body>
+</html>
